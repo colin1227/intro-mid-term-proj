@@ -109,7 +109,7 @@ print(format(sales_tax, '.2f'))
 # Your total is:
 your_total = sub_total + sales_tax
 print('Your total is: ', end='')
-print(your_total)
+print(format(your_total, '.2f'))
 print('-------------------------------------------')
 
 # Cash received
